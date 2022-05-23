@@ -54,8 +54,7 @@ def getAnswer(text, examples, responses):
     for example in examples:  # Для каждого элемента списка examples
         if isMatch(text, example):  # Если пример совпадает с текстом пользователя
             return random.choice(responses)
-    
-    
+   
 
 def main():
     print("Тупе техт хере:")
